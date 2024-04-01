@@ -88,4 +88,25 @@
     echo "<br> Kiểm tra số nguyên tố <br>" ; 
     // lệnh continiu bỏ qua khối lệnh 
     // die và exit ; đều dừng đoạn chương trình code dưới 
+    // tính tổng các số nguyên từ 1 đến 20 
+    $tong1=0 ; 
+    for($i=1 ;$i<=20 ; $i++ ){
+        $tong= $tong +$i ; 
+    }
+    echo '<br>'."Tổng = $tong".'<br>';
+    // bài tập vẽ tam giác = * 
+    for($i=0 ; $i<10 ; $i++ ){
+       for($j=0; $j<$i; $j++ ){
+            echo '*' ; 
+       }
+       echo '<br>' ; 
+    }
+
+    //bài tập kiểm tra số nguyên tố 
+    include_once('kiemtranguyento.php');
+    if(kiemtranto(9)){
+        echo '<br> nó là số nguyên tố' ; 
+    }else{
+        echo '<br> nó không phải số nguyên tố' ; 
+    }
 ?>
