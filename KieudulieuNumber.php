@@ -13,3 +13,4 @@ var_dump($bien2) ;
 $bien3 = 1.2344242423432423423423; 
 $kq= round($bien3,5) ;  
 var_dump($kq) ;
+// làm tròn xuống floor() ; , làm tròn lên là ceil() ; 
