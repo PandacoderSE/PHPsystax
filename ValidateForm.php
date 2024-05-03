@@ -52,4 +52,6 @@ if (!empty($_POST)) {
 // echo '<pre>' ; 
 // print_r($erros);
 // echo '</pre>';
+$email = "sher@gmal.com " ; 
+
 ?>

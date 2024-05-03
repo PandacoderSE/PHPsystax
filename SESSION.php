@@ -20,3 +20,13 @@ echo '</pre>';
 // sửa thì chỉ cần thay nội dung là đc.
 //để xóa session thì dùng unset()
 //xóa nhiều session dùng session_destroy ; 
+$cart=[] ; 
+array_push($cart,"lemon","t-shirt") ; 
+$_SESSION["cart"]=$cart ; 
+echo "Session varible :".count( $_SESSION['cart'] )."";
+echo "List Product in Cart ";
+foreach( $_SESSION["cart"] as $k){
+    echo "cart ".$k."</br>" ; 
+}
+
+
